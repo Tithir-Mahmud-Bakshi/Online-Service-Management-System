@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar #myMenu .custom-nav .nav-item a{
+       
+          color: #fff;
+          
+        }
+.navbar #myMenu .custom-nav .nav-item a:hover {
+       
+          color: #dab0cd;
+          
+        }
+.background-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 0px;
+}

@@ -1,0 +1,20 @@
+/*session_start();
+if(isset(!$_SESSION['is_login'])){
+ if(isset($_REQUEST['rEmail']))
+ {
+	$rEmail = trim($_REQUEST['rEmail']);
+	$rPassword = trim($_REQUEST['rPassword']);
+	$sql = "SELECT r_email, r_password FROM requesterlogin_tb WHERE r_email = '".$rEmail."' AND r_password = '".$rPassword."' limit 1 ";
+	$result = $connection->query($sql);
+	if($result->num_rows == 1){
+		$_SESSION['is_login'] = true;
+		$_SESSION['rEmail'] = $rEmail; 
+		echo "<script>location.href = 'RequesterProfile.php';</script>";
+		exit;
+	}else{
+		$msg = '<div class="alert alert-warning mt-2" >Enter valid Email and Password</div>';
+	}
+ }
+} else{
+	echo "<script>location.href = 'RequesterProfile.php';</script>";
+}*/
